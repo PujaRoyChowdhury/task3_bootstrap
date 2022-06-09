@@ -1,18 +1,79 @@
-.topbar{
+.topbar {
     padding: 7px 0 7px 0;
-}
-header{
+    color: #f8f9fa;
     z-index: 2;
+    position: relative;
 }
-.banner{
+.topbar span{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.1) !important;
+
+}
+
+.navbar .navbar-brand {
+    color: #f8f9fa;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #f8f9fa;
+    font-weight: 600;
+}
+
+.navbar {
+    z-index: 2;
+    position: relative;
+}
+
+.navbar-nav .nav-link.active {
+    color: #cdb30c !important;
+}
+
+.banner {
     position: absolute;
-    top:0;
+    top: 0;
     background-image: url(assets/xbg_1.jpg.pagespeed.ic.Tg4OKt8DCq.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    height: 680px;
     z-index: 1;
     overflow: hidden;
     width: 100%;
+}
+
+.text{
+    position: relative;
+    top:50px;
+}
+.subheading {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+
+.service-section {
+    padding: 7em 0;
+    position: relative;
+    width: 100%;
+}
+.services {
+    background: url(assets/image1.jpg.webp) repeat;
+    background-attachment: fixed;
 }
