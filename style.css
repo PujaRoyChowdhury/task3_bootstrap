@@ -173,3 +173,22 @@ header{
     background-color: black;
     border-radius: 5px;
 }
+
+
+/* .intro-image {
+  background-image: url(assets/introduction.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: auto;
+}  */
+.intro-image img{
+  width: 100%;
+  height: auto;
+}
+.intro-about{
+  padding-top: 250px;
+  padding-bottom: 250px;
+  padding-left: 200px;
+}
+
