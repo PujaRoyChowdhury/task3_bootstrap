@@ -16,7 +16,9 @@
       src: url("./assets/fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
     }
   }
-
+.container{
+  max-width: 1090px;
+}
 .topbar {
     padding: 7px 0 7px 0;
     color: #f8f9fa;
@@ -256,4 +258,54 @@ header{
 }
 .counter-box{
   margin: 90px 0;
+}
+.team{
+  padding-top:100px;
+}
+.team-heading span {
+  font-size: 13px;
+  display: block;
+  font-weight: 600;
+  color: #cdb30c;
+}
+.team-heading h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 3px;
+}
+.team-link {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+.team-link a{
+  padding: 5px;
+  color: #cdb30c;
+  border: 2px solid #cdb30c;
+  text-decoration: none;
+}
+.team-image-div{
+  width: 100%;
+  padding-top: 50px;
+}
+
+.team-image img{
+  width: 111%;
+  height: 350px;
+}
+.container-2{
+  margin: 0 0 0 auto !important;
+  max-width: 1240px;
+}
+@media screen and (max-width:768px){
+  .container-2{
+   padding: 0 20px;
+   max-width: 1240px;
+  }
+  .team-image img{
+    width: 106%;
+    height: 400px;
+  }
 }
