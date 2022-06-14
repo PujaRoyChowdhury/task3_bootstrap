@@ -373,7 +373,7 @@ header {
 
 .testimonial {
   background-color: #f4f5f9;
-  padding-top: 150px;
+  padding:150px 0;
 }
 
 .testimonial-heading {
