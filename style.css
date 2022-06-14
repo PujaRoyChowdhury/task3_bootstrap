@@ -1,3 +1,13 @@
+/*.container{
+  max-width: 1050px;
+}
+ @media (min-width: 1200px){
+.container{
+    max-width: 1140px;
+} 
+}*/
+
+
 @font-face {
     font-family: "Flaticon";
     src: url("./assets/fonts/flaticon/font/Flaticon.eot");
@@ -16,13 +26,7 @@
       src: url("./assets/fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
     }
   }
-/* .container{
-  max-width: 1090px;
-} */
-/* @media (min-width: 1400px){
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1031px;
-}} */
+
 .topbar {
     padding: 7px 0 7px 0;
     color: #f8f9fa;
@@ -374,4 +378,18 @@ padding:50px 0;
   margin: 10px;
   padding: 10px;
 }
+}
+.footer-section {
+  padding:150px 0;
+}
+.footer-icon{
+  position: relative;
+}
+.icon1{
+  position: relative;
+  border-radius: 50%;
+  width: 20%;
+}
+.text-color{
+  color: rgba(255, 255, 255, 0.7);
 }
