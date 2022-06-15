@@ -147,7 +147,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 680px;
+  height: 780px;
   z-index: 1;
   overflow: hidden;
   width: 100%;
@@ -206,6 +206,13 @@ header {
   border-radius: 5px;
 }
 
+.service-heading {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 /* === Introduction Section === */
 .intro-image img {
   width: 100%;
@@ -245,7 +252,16 @@ header {
 .year {
   margin-left: -70px;
 }
-
+.year strong{
+  font-size: 32px;
+  font-weight: 700;
+}
+.year p{
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 600;
+  color: #f8f9fa;
+}
 @media screen and (max-width:768px) {
   .year {
     margin-left: 0px;
